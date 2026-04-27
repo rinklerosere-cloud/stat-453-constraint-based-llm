@@ -436,7 +436,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument(
         "--val_split",
         type=float,
-        default=0.05,
+        default=0.1,
         help="Fraction of data held out for validation",
     )
     p.add_argument("--seed", type=int, default=42)
